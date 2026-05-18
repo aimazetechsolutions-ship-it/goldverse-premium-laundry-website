@@ -84,15 +84,16 @@ textarea {
   min-width: 0;
 }
 
-.brand-mark {
-  display: grid;
-  width: 42px;
-  height: 42px;
-  place-items: center;
-  color: var(--ink);
-  background: linear-gradient(135deg, var(--gold), var(--gold-2));
+.brand-logo {
+  display: block;
+  width: 48px;
+  height: 48px;
+  flex: 0 0 auto;
+  object-fit: cover;
+  background: #780026;
+  border: 1px solid rgba(241, 213, 140, 0.7);
   border-radius: 8px;
-  font-weight: 800;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
 }
 
 .brand strong,
@@ -903,6 +904,11 @@ textarea {
 
   .brand small {
     font-size: 0.68rem;
+  }
+
+  .brand-logo {
+    width: 44px;
+    height: 44px;
   }
 
   .hero {
