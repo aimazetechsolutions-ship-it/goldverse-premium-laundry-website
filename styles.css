@@ -124,20 +124,31 @@ textarea {
 }
 
 .brand small {
-  color: currentColor;
+  color: var(--gold-2);
   font-size: 0.82rem;
-  opacity: 0.78;
+  opacity: 1;
 }
 
 .site-header .brand strong {
-  font-size: 1.44rem;
+  color: var(--white);
+  font-size: 1.18rem;
   line-height: 1;
 }
 
 .site-header .brand small {
-  font-size: 1rem;
+  color: var(--gold-2);
+  font-size: 0.95rem;
   line-height: 1.08;
-  opacity: 0.88;
+  font-weight: 800;
+  opacity: 1;
+}
+
+.site-header.is-scrolled .brand strong {
+  color: var(--ink);
+}
+
+.site-header.is-scrolled .brand small {
+  color: var(--maroon);
 }
 
 .site-nav {
@@ -1438,12 +1449,12 @@ textarea {
   }
 
   .site-header .brand strong {
-    font-size: 1.28rem;
+    font-size: 1rem;
     line-height: 1;
   }
 
   .site-header .brand small {
-    font-size: 0.94rem;
+    font-size: 0.8rem;
     line-height: 1.05;
   }
 
@@ -1588,10 +1599,10 @@ textarea {
   }
 
   .site-header .brand strong {
-    font-size: 1.1rem;
+    font-size: 0.86rem;
   }
 
   .site-header .brand small {
-    font-size: 0.81rem;
+    font-size: 0.7rem;
   }
 }
