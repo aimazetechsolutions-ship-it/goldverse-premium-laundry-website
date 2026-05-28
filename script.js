@@ -1,10 +1,18 @@
 const header = document.querySelector("[data-header]");
 const nav = document.querySelector("[data-nav]");
 const navToggle = document.querySelector("[data-nav-toggle]");
+const backToTop = document.querySelector("[data-back-to-top]");
 
 function updateHeader() {
   if (!header) return;
   header.classList.toggle("is-scrolled", window.scrollY > 18);
+}
+
+function updateBackToTop() {
+  if (!backToTop) return;
+  const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const nearBottom = scrollableHeight > 360 && window.scrollY >= scrollableHeight - 260;
+  backToTop.classList.toggle("is-visible", nearBottom);
 }
 
 navToggle?.addEventListener("click", () => {
@@ -57,8 +65,22 @@ document.addEventListener("keydown", (event) => {
   }
 });
 
-window.addEventListener("scroll", updateHeader, { passive: true });
+backToTop?.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+window.addEventListener(
+  "scroll",
+  () => {
+    updateHeader();
+    updateBackToTop();
+  },
+  { passive: true },
+);
+
+window.addEventListener("resize", updateBackToTop, { passive: true });
 updateHeader();
+updateBackToTop();
 
 if (window.lucide) {
   window.lucide.createIcons();
