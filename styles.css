@@ -307,10 +307,15 @@ textarea {
 
 .eyebrow,
 .section-kicker {
-  margin: 0 0 14px;
-  color: var(--gold);
-  font-size: 0.78rem;
-  font-weight: 800;
+  width: fit-content;
+  margin: 0 0 18px;
+  padding: 7px 11px;
+  color: var(--maroon);
+  background: linear-gradient(135deg, rgba(241, 213, 140, 0.72), rgba(216, 169, 75, 0.2));
+  border: 1px solid rgba(216, 169, 75, 0.34);
+  border-radius: 8px;
+  font-size: 0.92rem;
+  font-weight: 900;
   letter-spacing: 0;
   text-transform: uppercase;
 }
@@ -318,7 +323,10 @@ textarea {
 .hero .eyebrow {
   max-width: 100%;
   margin-bottom: 20px;
+  padding: 0;
   color: var(--gold-2);
+  background: transparent;
+  border: 0;
   font-size: clamp(1.08rem, 1.9vw, 1.38rem);
   font-weight: 900;
   line-height: 1.25;
@@ -332,6 +340,7 @@ textarea {
 .testimonial-layout h2,
 .contact h2 {
   margin: 0;
+  color: var(--maroon);
   font-weight: 800;
   line-height: 1.03;
 }
@@ -454,7 +463,7 @@ textarea {
 .feature-layout h2,
 .testimonial-layout h2,
 .contact h2 {
-  font-size: clamp(2rem, 4vw, 3.35rem);
+  font-size: clamp(2.28rem, 4.35vw, 3.75rem);
 }
 
 .text-column p,
@@ -522,6 +531,15 @@ textarea {
 
 .section-heading p {
   margin: 18px 0 0;
+}
+
+.section-heading .section-kicker {
+  margin: 0 0 20px;
+  color: var(--maroon);
+}
+
+.section-heading.compact .section-kicker {
+  margin-inline: auto;
 }
 
 .service-grid {
@@ -1035,6 +1053,7 @@ textarea {
 .price-cta h2 {
   max-width: 760px;
   margin: 0;
+  color: var(--maroon);
   font-size: clamp(2rem, 3.7vw, 3.4rem);
   line-height: 1.05;
 }
@@ -1059,6 +1078,12 @@ textarea {
 
 .testimonial-layout .section-kicker {
   color: var(--maroon);
+  background: rgba(255, 255, 255, 0.42);
+  border-color: rgba(120, 0, 38, 0.16);
+}
+
+.testimonial-layout h2 {
+  color: var(--ink);
 }
 
 .testimonial-layout blockquote {
@@ -1158,6 +1183,18 @@ textarea {
   background:
     linear-gradient(rgba(19, 32, 28, 0.88), rgba(19, 32, 28, 0.9)),
     url("assets/real-contact-laundry.jpg") center/cover;
+  color: var(--white);
+}
+
+.contact .section-kicker,
+.offers-layout .section-kicker {
+  color: var(--gold-2);
+  background: rgba(120, 0, 38, 0.42);
+  border-color: rgba(241, 213, 140, 0.34);
+}
+
+.contact h2,
+.offers-layout h2 {
   color: var(--white);
 }
 
@@ -1546,7 +1583,7 @@ textarea {
 
   .eyebrow,
   .section-kicker {
-    font-size: 0.72rem;
+    font-size: 0.82rem;
   }
 
   .hero .eyebrow {
