@@ -1076,6 +1076,59 @@ textarea {
   font-weight: 800;
 }
 
+.customer-reviews {
+  padding: 96px 0;
+  background:
+    linear-gradient(180deg, var(--paper), #fffaf0);
+}
+
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 36px;
+}
+
+.review-card {
+  display: grid;
+  gap: 18px;
+  align-content: start;
+  padding: 26px;
+  background: var(--white);
+  border: 1px solid rgba(216, 169, 75, 0.28);
+  border-radius: 8px;
+  box-shadow: 0 18px 42px rgba(19, 32, 28, 0.08);
+}
+
+.review-stars {
+  color: var(--gold);
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.review-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.72;
+}
+
+.review-card footer {
+  display: grid;
+  gap: 4px;
+  padding-top: 4px;
+}
+
+.review-card strong {
+  color: var(--ink);
+  font-size: 1rem;
+}
+
+.review-card span {
+  color: var(--maroon);
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
 .faq {
   padding: 96px 0;
 }
@@ -1391,6 +1444,7 @@ textarea {
   .gallery-grid,
   .quality-grid,
   .plan-grid,
+  .review-grid,
   .price-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1412,6 +1466,7 @@ textarea {
   .feature-band,
   .quality,
   .plans,
+  .customer-reviews,
   .price-section,
   .offers-band,
   .faq,
@@ -1551,6 +1606,7 @@ textarea {
   .gallery-grid,
   .quality-grid,
   .plan-grid,
+  .review-grid,
   .price-grid {
     grid-template-columns: 1fr;
   }
