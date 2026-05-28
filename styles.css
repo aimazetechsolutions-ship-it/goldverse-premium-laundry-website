@@ -551,6 +551,15 @@ textarea {
   grid-column: span 2;
 }
 
+.gallery-card.fit-landscape {
+  aspect-ratio: 1538 / 1023;
+  min-height: 0;
+}
+
+.gallery-card.fit-landscape img {
+  min-height: 0;
+}
+
 .gallery-card img {
   width: 100%;
   height: 100%;
@@ -1112,6 +1121,11 @@ textarea {
   .gallery-card,
   .gallery-card img {
     min-height: 300px;
+  }
+
+  .gallery-card.fit-landscape,
+  .gallery-card.fit-landscape img {
+    min-height: 0;
   }
 
   .partners-grid span {
