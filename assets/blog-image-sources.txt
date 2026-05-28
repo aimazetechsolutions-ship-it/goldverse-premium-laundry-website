@@ -2,7 +2,7 @@ Blog image sources used on blog.html
 
 All files below were downloaded from Wikimedia Commons metadata marked CC0, Public Domain, or No Known Copyright Restrictions.
 
-blog-hero-modern-laundry.jpg
+blog-hero-modern-laundry-v2.jpg
 Source: Generated original image for GoldVerse blog use
 License: Project-owned generated image
 
@@ -22,6 +22,6 @@ blog-laundry-process.jpg
 Source: https://commons.wikimedia.org/wiki/File:Laundry_room_in_apartment_building.png
 License: CC0
 
-blog-pickup-delivery-modern.jpg
+blog-pickup-delivery-modern-v2.jpg
 Source: Generated original image for GoldVerse blog use
 License: Project-owned generated image
