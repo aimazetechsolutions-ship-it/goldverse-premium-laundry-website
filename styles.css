@@ -1500,7 +1500,7 @@ textarea {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto 1fr;
   gap: 24px;
   align-items: center;
 }
@@ -1513,6 +1513,7 @@ textarea {
 .footer-links {
   display: flex;
   gap: 16px;
+  justify-self: end;
   font-weight: 800;
 }
 
@@ -1573,7 +1574,7 @@ textarea {
 .footer-grid .copyright-line {
   grid-column: 1 / -1;
   padding-top: 18px;
-  color: var(--white);
+  color: var(--gold-2);
   text-align: center;
   font-size: 1rem;
   font-weight: 800;
@@ -1815,6 +1816,7 @@ textarea {
 
   .footer-links {
     flex-wrap: wrap;
+    justify-self: start;
   }
 
   .social-links {
