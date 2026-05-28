@@ -1,0 +1,27 @@
+Blog image sources used on blog.html
+
+All files below were downloaded from Wikimedia Commons metadata marked CC0, Public Domain, or No Known Copyright Restrictions.
+
+blog-hero-laundry-line.jpg
+Source: https://commons.wikimedia.org/wiki/File:Laundry_on_a_line_(Unsplash).jpg
+License: CC0
+
+blog-fancy-dress-care.jpg
+Source: https://commons.wikimedia.org/wiki/File:Madeleine_Vionnet_evening_gown_in_ombr%C3%A9_silk_chiffon_crepe,_c1932_02.jpg
+License: CC0
+
+blog-dry-cleaning-care.jpg
+Source: https://commons.wikimedia.org/wiki/File:Hangers_in_a_clothes_store_(Unsplash).jpg
+License: CC0
+
+blog-linen-towels.jpg
+Source: https://commons.wikimedia.org/wiki/File:Towels_on_shelves_01.jpg
+License: CC0
+
+blog-laundry-process.jpg
+Source: https://commons.wikimedia.org/wiki/File:Laundry_room_in_apartment_building.png
+License: CC0
+
+blog-pickup-delivery.jpg
+Source: https://commons.wikimedia.org/wiki/File:Railways_delivery_van(GN12146).jpg
+License: CC0
