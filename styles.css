@@ -852,8 +852,10 @@ textarea {
 
 .testimonial-band {
   padding: 86px 0;
-  color: var(--white);
-  background: var(--emerald);
+  color: var(--ink);
+  background:
+    linear-gradient(135deg, rgba(241, 213, 140, 0.98), rgba(216, 169, 75, 0.92) 52%, rgba(120, 0, 38, 0.88)),
+    var(--gold);
 }
 
 .price-hero {
@@ -1056,19 +1058,19 @@ textarea {
 }
 
 .testimonial-layout .section-kicker {
-  color: var(--gold-2);
+  color: var(--maroon);
 }
 
 .testimonial-layout blockquote {
   margin: 0;
-  color: rgba(255, 255, 255, 0.86);
+  color: rgba(19, 32, 28, 0.9);
   font-size: 1.32rem;
 }
 
 .testimonial-layout cite {
   display: block;
   margin-top: 18px;
-  color: var(--gold-2);
+  color: var(--maroon);
   font-size: 0.96rem;
   font-style: normal;
   font-weight: 800;
