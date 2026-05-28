@@ -105,12 +105,12 @@ textarea {
 }
 
 .brand strong {
-  font-size: 1.05rem;
+  font-size: 1.18rem;
 }
 
 .brand small {
   color: currentColor;
-  font-size: 0.73rem;
+  font-size: 0.82rem;
   opacity: 0.78;
 }
 
@@ -1065,11 +1065,11 @@ textarea {
   }
 
   .brand strong {
-    font-size: 0.94rem;
+    font-size: 1.08rem;
   }
 
   .brand small {
-    font-size: 0.68rem;
+    font-size: 0.78rem;
   }
 
   .brand-logo {
