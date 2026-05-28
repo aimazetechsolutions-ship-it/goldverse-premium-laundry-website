@@ -63,7 +63,7 @@ textarea {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  gap: 26px;
+  gap: 18px;
   padding: 14px 16px;
   color: var(--white);
   background: rgba(15, 38, 33, 0.62);
@@ -272,9 +272,9 @@ textarea {
 }
 
 .site-nav a {
-  padding: 10px 12px;
+  padding: 10px 8px;
   border-radius: 8px;
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   font-weight: 700;
   white-space: nowrap;
   opacity: 0.88;
@@ -1523,6 +1523,11 @@ textarea {
   color: var(--white);
 }
 
+.contact-page {
+  min-height: 100vh;
+  padding-top: 180px;
+}
+
 .contact .section-kicker,
 .offers-layout .section-kicker {
   color: var(--gold-2);
@@ -2111,6 +2116,10 @@ textarea {
   .faq,
   .contact {
     padding: 72px 0;
+  }
+
+  .contact.contact-page {
+    padding-top: 160px;
   }
 
   .blog-card-featured {
