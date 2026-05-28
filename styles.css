@@ -1069,6 +1069,34 @@ textarea {
   justify-content: flex-end;
 }
 
+.thank-you-hero {
+  display: grid;
+  min-height: 100vh;
+  align-items: center;
+  padding: 170px 0 88px;
+  color: var(--white);
+  background:
+    linear-gradient(135deg, rgba(9, 21, 18, 0.9), rgba(120, 0, 38, 0.82)),
+    url("assets/real-contact-laundry.jpg") center/cover;
+}
+
+.thank-you-card {
+  max-width: 760px;
+}
+
+.thank-you-card h1 {
+  margin: 0;
+  font-size: clamp(2.4rem, 5vw, 4.5rem);
+  line-height: 1.02;
+}
+
+.thank-you-card p:not(.section-kicker) {
+  max-width: 660px;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 1.1rem;
+  line-height: 1.75;
+}
+
 .testimonial-layout {
   display: grid;
   grid-template-columns: 0.78fr 1.22fr;
@@ -1339,6 +1367,15 @@ textarea {
   color: var(--ink);
   font-size: 0.9rem;
   font-weight: 800;
+}
+
+.form-honey {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .quote-form input,

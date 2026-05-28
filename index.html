@@ -15,7 +15,7 @@
       rel="stylesheet"
     />
     <link rel="icon" type="image/png" href="assets/goldverse-icon.png" />
-    <link rel="stylesheet" href="styles.css?v=20260528-logo-large" />
+    <link rel="stylesheet" href="styles.css?v=20260528-lead-form" />
   </head>
   <body>
     <header class="site-header" data-header>
@@ -489,10 +489,19 @@
             </div>
           </div>
 
-          <form class="quote-form" action="mailto:goldversepk@gmail.com" method="post" enctype="text/plain">
+          <form class="quote-form" action="https://formsubmit.co/goldversepk@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New Goldverse website lead" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_next" value="http://www.thegoldverse.com/thank-you.html" />
+            <input type="hidden" name="_url" value="http://www.thegoldverse.com/#contact" />
+            <input type="text" name="_honey" class="form-honey" tabindex="-1" autocomplete="off" />
             <label>
               Full Name
               <input name="name" type="text" placeholder="Your name" required />
+            </label>
+            <label>
+              Email Address
+              <input name="email" type="email" placeholder="name@example.com" required />
             </label>
             <label>
               Phone Number
