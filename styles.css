@@ -347,6 +347,7 @@ textarea {
 
 .hero h1 {
   max-width: 720px;
+  color: var(--white);
   font-size: clamp(2.45rem, 4.9vw, 4.65rem);
   overflow-wrap: anywhere;
 }
@@ -690,6 +691,10 @@ textarea {
 
 .feature-layout p {
   color: rgba(255, 255, 255, 0.72);
+}
+
+.feature-band .feature-layout h2 {
+  color: var(--white);
 }
 
 .image-panel {
