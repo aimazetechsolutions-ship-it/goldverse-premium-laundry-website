@@ -453,6 +453,7 @@ textarea {
 .section-heading h2,
 .feature-layout h2,
 .testimonial-layout h2,
+.contact h1,
 .contact h2 {
   margin: 0;
   color: var(--maroon);
@@ -578,6 +579,7 @@ textarea {
 .section-heading h2,
 .feature-layout h2,
 .testimonial-layout h2,
+.contact h1,
 .contact h2 {
   font-size: clamp(2.28rem, 4.35vw, 3.75rem);
 }
@@ -1535,6 +1537,7 @@ textarea {
   border-color: rgba(241, 213, 140, 0.34);
 }
 
+.contact h1,
 .contact h2,
 .offers-layout h2 {
   color: var(--white);
