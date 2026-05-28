@@ -238,6 +238,7 @@ textarea {
 
 .brand .brand-gold,
 .site-header.is-scrolled .brand .brand-gold {
+  display: inline;
   color: var(--gold-2);
 }
 
