@@ -1405,7 +1405,7 @@ textarea {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: auto 1fr auto auto;
+  grid-template-columns: auto 1fr auto;
   gap: 24px;
   align-items: center;
 }
@@ -1475,14 +1475,14 @@ textarea {
   transform: translateY(3px);
 }
 
-.photo-credit {
+.footer-grid .copyright-line {
   grid-column: 1 / -1;
-  font-size: 0.78rem;
-}
-
-.photo-credit a {
-  color: var(--gold-2);
+  padding-top: 18px;
+  color: var(--white);
+  text-align: center;
+  font-size: 1rem;
   font-weight: 800;
+  border-top: 1px solid rgba(241, 213, 140, 0.18);
 }
 
 @media (max-width: 980px) {
