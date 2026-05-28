@@ -911,7 +911,7 @@ textarea {
 }
 
 .contact-cards a,
-.contact-cards span {
+.contact-cards > span {
   display: flex;
   gap: 12px;
   align-items: center;
@@ -926,6 +926,92 @@ textarea {
   width: 20px;
   height: 20px;
   color: var(--gold-2);
+}
+
+.contact-cards a.social-contact {
+  gap: 14px;
+  min-height: 74px;
+  padding: 15px 18px;
+  border-color: rgba(241, 213, 140, 0.22);
+  font-size: 1.05rem;
+  font-weight: 900;
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.contact-cards a.social-contact:hover,
+.social-links a:hover {
+  transform: translateY(-2px);
+  border-color: rgba(241, 213, 140, 0.5);
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.social-mark {
+  position: relative;
+  display: inline-flex;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  border-radius: 8px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
+}
+
+.social-mark--instagram {
+  background:
+    radial-gradient(circle at 32% 108%, #feda75 0 20%, transparent 36%),
+    radial-gradient(circle at 18% 92%, #fa7e1e 0 22%, transparent 38%),
+    radial-gradient(circle at 82% 18%, #515bd4 0 24%, transparent 40%),
+    linear-gradient(135deg, #833ab4, #fd1d1d 52%, #fcb045);
+}
+
+.social-mark--instagram::before {
+  content: "";
+  width: 19px;
+  height: 19px;
+  border: 2px solid var(--white);
+  border-radius: 7px;
+}
+
+.social-mark--instagram::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 5px;
+  height: 5px;
+  background: var(--white);
+  border-radius: 50%;
+}
+
+.social-mark--facebook {
+  background: #1877f2;
+  border-radius: 50%;
+  font-family: Arial, sans-serif;
+}
+
+.social-mark--facebook::before {
+  content: "f";
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1;
+  transform: translateY(4px);
+}
+
+.contact-cards a.social-contact--instagram,
+.social-links a.social-contact--instagram {
+  background:
+    linear-gradient(90deg, rgba(131, 58, 180, 0.22), rgba(253, 29, 29, 0.1)),
+    rgba(255, 255, 255, 0.09);
+}
+
+.contact-cards a.social-contact--facebook,
+.social-links a.social-contact--facebook {
+  background:
+    linear-gradient(90deg, rgba(24, 119, 242, 0.22), rgba(24, 119, 242, 0.07)),
+    rgba(255, 255, 255, 0.09);
 }
 
 .quote-form {
@@ -995,20 +1081,50 @@ textarea {
 
 .social-links a {
   display: inline-flex;
-  gap: 8px;
+  gap: 10px;
   align-items: center;
-  padding: 10px 12px;
+  padding: 8px 12px 8px 8px;
   color: var(--white);
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 8px;
   font-weight: 800;
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
 }
 
 .social-links svg {
   width: 17px;
   height: 17px;
   color: var(--gold-2);
+}
+
+.social-links .social-mark {
+  width: 32px;
+  height: 32px;
+  flex-basis: 32px;
+  box-shadow: none;
+}
+
+.social-links .social-mark--instagram::before {
+  width: 14px;
+  height: 14px;
+  border-radius: 5px;
+}
+
+.social-links .social-mark--instagram::after {
+  top: 9px;
+  right: 9px;
+  width: 4px;
+  height: 4px;
+}
+
+.social-links .social-mark--facebook {
+  padding-top: 0;
+}
+
+.social-links .social-mark--facebook::before {
+  font-size: 1.55rem;
+  transform: translateY(3px);
 }
 
 .photo-credit {
