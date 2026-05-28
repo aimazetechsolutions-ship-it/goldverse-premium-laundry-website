@@ -1174,6 +1174,7 @@ textarea {
 
 .contact-cards {
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
   margin-top: 28px;
 }
@@ -1188,6 +1189,11 @@ textarea {
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 8px;
   overflow-wrap: anywhere;
+}
+
+.contact-cards a:not(.social-contact),
+.contact-cards > span {
+  grid-column: 1 / -1;
 }
 
 .contact-cards svg {
@@ -1662,5 +1668,22 @@ textarea {
 
   .site-header .brand small {
     font-size: 0.7rem;
+  }
+
+  .contact-cards {
+    gap: 10px;
+  }
+
+  .contact-cards a.social-contact {
+    gap: 10px;
+    min-height: 64px;
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+
+  .contact-cards .social-mark {
+    width: 34px;
+    height: 34px;
+    flex-basis: 34px;
   }
 }
