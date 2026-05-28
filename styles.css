@@ -172,7 +172,7 @@ textarea {
 }
 
 .brand strong {
-  font-size: 1.55rem;
+  font-size: 1.72rem;
 }
 
 .brand b {
@@ -233,7 +233,12 @@ textarea {
 }
 
 .site-header .brand strong {
-  font-size: 1.86rem;
+  font-size: 2.12rem;
+}
+
+.brand .brand-gold,
+.site-header.is-scrolled .brand .brand-gold {
+  color: var(--gold-2);
 }
 
 .site-header .brand b {
@@ -2148,7 +2153,7 @@ textarea {
   }
 
   .site-header .brand strong {
-    font-size: 1.28rem;
+    font-size: 1.42rem;
     line-height: 1;
   }
 
@@ -2362,7 +2367,7 @@ textarea {
   }
 
   .site-header .brand strong {
-    font-size: 1.08rem;
+    font-size: 1.18rem;
   }
 
   .site-header .brand b {
