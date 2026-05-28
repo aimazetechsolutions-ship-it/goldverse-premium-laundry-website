@@ -153,6 +153,8 @@ textarea {
 
 .site-nav {
   display: flex;
+  min-width: 0;
+  flex-wrap: nowrap;
   justify-content: center;
   gap: 4px;
 }
@@ -162,6 +164,7 @@ textarea {
   border-radius: 8px;
   font-size: 0.9rem;
   font-weight: 700;
+  white-space: nowrap;
   opacity: 0.88;
 }
 
