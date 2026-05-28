@@ -164,6 +164,7 @@ textarea {
 }
 
 .brand strong,
+.brand b,
 .brand small {
   display: block;
   line-height: 1.08;
@@ -171,7 +172,12 @@ textarea {
 }
 
 .brand strong {
-  font-size: 1.18rem;
+  font-size: 1.55rem;
+}
+
+.brand b {
+  font-size: 1.28rem;
+  font-weight: 800;
 }
 
 @keyframes logoShine {
@@ -212,25 +218,35 @@ textarea {
 
 .brand small {
   color: var(--gold-2);
-  font-size: 0.82rem;
+  font-size: 1.04rem;
+  font-weight: 800;
   opacity: 1;
 }
 
-.site-header .brand strong {
+.site-header .brand strong,
+.site-header .brand b {
   color: var(--white);
-  font-size: 1.18rem;
-  line-height: 1;
+  line-height: 1.03;
+}
+
+.site-header .brand strong {
+  font-size: 1.7rem;
+}
+
+.site-header .brand b {
+  font-size: 1.38rem;
 }
 
 .site-header .brand small {
   color: var(--gold-2);
-  font-size: 0.95rem;
+  font-size: 1.08rem;
   line-height: 1.08;
   font-weight: 800;
   opacity: 1;
 }
 
-.site-header.is-scrolled .brand strong {
+.site-header.is-scrolled .brand strong,
+.site-header.is-scrolled .brand b {
   color: var(--ink);
 }
 
@@ -1922,12 +1938,17 @@ textarea {
   }
 
   .site-header .brand strong {
-    font-size: 1rem;
+    font-size: 1.16rem;
     line-height: 1;
   }
 
+  .site-header .brand b {
+    font-size: 1.02rem;
+    line-height: 1.02;
+  }
+
   .site-header .brand small {
-    font-size: 0.8rem;
+    font-size: 0.86rem;
     line-height: 1.05;
   }
 
@@ -2121,11 +2142,15 @@ textarea {
   }
 
   .site-header .brand strong {
-    font-size: 0.86rem;
+    font-size: 1rem;
+  }
+
+  .site-header .brand b {
+    font-size: 0.9rem;
   }
 
   .site-header .brand small {
-    font-size: 0.7rem;
+    font-size: 0.76rem;
   }
 
   .contact-cards {
