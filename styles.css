@@ -326,8 +326,8 @@ textarea {
 }
 
 .hero h1 {
-  max-width: 800px;
-  font-size: clamp(2.65rem, 6vw, 5.8rem);
+  max-width: 720px;
+  font-size: clamp(2.45rem, 4.9vw, 4.65rem);
   overflow-wrap: anywhere;
 }
 
